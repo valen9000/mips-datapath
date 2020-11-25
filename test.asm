@@ -21,3 +21,23 @@ sw  $s3, 16($zero)  # memoria de datos direccion 0x00000010 deberia tener un 5
 
 li $v0, 10
 syscall
+
+
+# ----------------------------- #
+# Pasado a codigo maquina
+# para el circuito del Logisim
+# quedaria asi
+# ----------------------------- #
+#
+# 8c100000
+# 8c110001
+# 8c120002
+# 8c130003
+# 02128020
+# 02709822
+# 02329820
+# ac130004
+#
+# Eso va en la ROM de
+# la Instruction Memory
+# ----------------------------- #
